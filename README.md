@@ -17,7 +17,9 @@
 
 ## Vous avez besoin de quoi ?
 
-Normalement rien à par l'ensemble du projet [](). Ce worshop est "autonome" (== rien à installer) et peut fonctionner sans connexion web (à part 2 exercices: les 17 et 18)
+Normalement rien à part l'ensemble du projet [https://github.com/k33g/scala-tutorial](https://github.com/k33g/scala-tutorial). Ce worshop est "autonome" (== rien à installer) et peut fonctionner sans connexion web (à part 2 exercices: les 17 et 18)
+
+... Ah si, il vous faut un IDE ou un éditeur de texte
 
 Sinon, dans la vraie vie, il faut installer Scala et SBT
 
