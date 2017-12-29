@@ -1,0 +1,6 @@
+name := "19-webapp"
+version := "1.0"
+scalaVersion := "2.12.4"
+name := "19-webapp"
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.4"
+libraryDependencies += "io.vertx" %% "vertx-web-scala" % "3.5.0"

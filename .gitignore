@@ -1,0 +1,6 @@
+*/target/**
+*/.vscode/**
+*/.vertx/**
+_ivy2
+_sbt
+
