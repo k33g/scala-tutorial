@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="io.vertx"
+		module="vertx-ext-parent"
+		revision="27"
+		status="release"
+		publication="20170930100013"
+	>
+		<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt" />
+		<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html" />
+		<description homepage="" />
+		<m:properties__generated.dir>${project.basedir}/src/main/generated</m:properties__generated.dir>
+		<m:properties__maven.assembly.plugin.version>3.1.0</m:properties__maven.assembly.plugin.version>
+		<m:properties__maven.clean.plugin.version>3.0.0</m:properties__maven.clean.plugin.version>
+		<m:properties__maven.dependency.plugin.version>2.10</m:properties__maven.dependency.plugin.version>
+		<m:properties__maven.deploy.plugin.version>2.8.2</m:properties__maven.deploy.plugin.version>
+		<m:properties__codegen.rxjava.deprecated>false</m:properties__codegen.rxjava.deprecated>
+		<m:properties__asciidoc.dir>${project.basedir}/src/main/asciidoc</m:properties__asciidoc.dir>
+		<m:properties__maven.surefire.plugin.version>2.18.1</m:properties__maven.surefire.plugin.version>
+		<e:sbtTransformHash>3d9cf75b55b03eff3da30128a9f4ba65e5cb8caa</e:sbtTransformHash>
+		<m:properties__maven.compiler.target>1.8</m:properties__maven.compiler.target>
+		<m:properties__maven.enforcer.plugin.version>1.4.1</m:properties__maven.enforcer.plugin.version>
+		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.bsc.maven__maven-processor-plugin__3.2.0|org.codehaus.mojo__build-helper-maven-plugin__1.12|org.jetbrains.kotlin__kotlin-maven-plugin__1.1.51</m:maven.plugins>
+		<m:properties__maven.asciidoctor.plugin.version>1.5.3</m:properties__maven.asciidoctor.plugin.version>
+		<m:properties__maven.jacoco.plugin.version>0.7.6.201602180812</m:properties__maven.jacoco.plugin.version>
+		<m:properties__project.reporting.outputEncoding>UTF-8</m:properties__project.reporting.outputEncoding>
+		<m:properties__maven.install.plugin.version>2.5.2</m:properties__maven.install.plugin.version>
+		<m:properties__maven.jsdoc.plugin.version>1.2.0</m:properties__maven.jsdoc.plugin.version>
+		<m:properties__maven.gmavenplus.plugin.version>1.5</m:properties__maven.gmavenplus.plugin.version>
+		<m:properties__maven.surefire.report.plugin.version>2.18.1</m:properties__maven.surefire.report.plugin.version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__maven.dependency.versions.check.plugin.version>2.0.2</m:properties__maven.dependency.versions.check.plugin.version>
+		<m:properties__maven.resource.plugin.version>2.7</m:properties__maven.resource.plugin.version>
+		<m:properties__doc.skip>false</m:properties__doc.skip>
+		<m:properties__maven.source.plugin.version>3.0.1</m:properties__maven.source.plugin.version>
+		<m:properties__source.skip>true</m:properties__source.skip>
+		<m:properties__maven.compiler.plugin.version>3.1</m:properties__maven.compiler.plugin.version>
+		<m:properties__maven.jar.plugin.version>3.0.2</m:properties__maven.jar.plugin.version>
+		<m:properties__maven.compiler.source>1.8</m:properties__maven.compiler.source>
+		<m:properties__maven.javadoc.plugin.version>2.10.1</m:properties__maven.javadoc.plugin.version>
+		<m:properties__maven.site.plugin.version>3.4</m:properties__maven.site.plugin.version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+</ivy-module>

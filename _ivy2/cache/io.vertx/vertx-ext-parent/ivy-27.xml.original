@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2011-2014 The original author or authors
+  ~
+  ~  All rights reserved. This program and the accompanying materials
+  ~  are made available under the terms of the Eclipse Public License v1.0
+  ~  and Apache License v2.0 which accompanies this distribution.
+  ~
+  ~      The Eclipse Public License is available at
+  ~      http://www.eclipse.org/legal/epl-v10.html
+  ~
+  ~      The Apache License v2.0 is available at
+  ~      http://www.opensource.org/licenses/apache2.0.php
+  ~
+  ~  You may elect to redistribute this code under either of these licenses.
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>io.vertx</groupId>
+    <artifactId>vertx-ext</artifactId>
+    <version>27</version>
+  </parent>
+
+  <artifactId>vertx-ext-parent</artifactId>
+  <version>27</version>
+  <packaging>pom</packaging>
+
+  <name>Vert.x Ext Parent</name>
+
+  <properties>
+
+    <!--
+      Configure plugins that skip building documentation that otherwise would fail without
+      the documentation bits. This is useful in pom aggregators that don't have documentation
+      to build, they change this property to true.
+    -->
+    <doc.skip>false</doc.skip>
+
+    <!-- We skip sources jar generation as we do it with the assembly plugin to have greater
+         control over the content -->
+    <source.skip>true</source.skip>
+
+    <generated.dir>${project.basedir}/src/main/generated</generated.dir>
+    <codegen.rxjava.deprecated>false</codegen.rxjava.deprecated>
+    <maven.gmavenplus.plugin.version>1.5</maven.gmavenplus.plugin.version>
+  </properties>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-clean-plugin</artifactId>
+          <executions>
+            <execution>
+              <id>default-clean</id>
+              <configuration>
+                <filesets>
+                  <fileset>
+                    <directory>${generated.dir}</directory>
+                  </fileset>
+                  <fileset>
+                    <directory>${asciidoc.dir}</directory>
+                    <excludes>
+                      <exclude>images/**</exclude>
+                    </excludes>
+                  </fileset>
+                </filesets>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>build-helper-maven-plugin</artifactId>
+          <version>1.9.1</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <configuration>
+            <sourcepath>${basedir}/src/main/java;${generated.dir}</sourcepath>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.gmavenplus</groupId>
+          <artifactId>gmavenplus-plugin</artifactId>
+          <version>${maven.gmavenplus.plugin.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+
+    <plugins>
+
+      <!-- Generate sources before compilation -->
+      <plugin>
+        <groupId>org.bsc.maven</groupId>
+        <artifactId>maven-processor-plugin</artifactId>
+        <version>3.2.0</version>
+        <executions>
+          <execution>
+            <id>generate-sources</id>
+            <goals>
+              <goal>process</goal>
+            </goals>
+            <phase>generate-sources</phase>
+            <configuration>
+              <systemProperties>
+                <java.util.logging.SimpleFormatter.format>%4$s: %3$s - %5$s %6$s%n</java.util.logging.SimpleFormatter.format>
+              </systemProperties>
+              <processors>
+                <processor>io.vertx.codegen.CodeGenProcessor</processor>
+                <processor>io.vertx.docgen.JavaDocGenProcessor</processor>
+                <processor>io.vertx.docgen.DocGenProcessor</processor>
+              </processors>
+              <optionMap>
+                <codegen.output>${project.basedir}/src/main</codegen.output>
+                <!-- Data object converters are placed in src/main/generated -->
+                <codegen.output.data_object_converters>generated</codegen.output.data_object_converters>
+                <codegen.rxjava.deprecated>${codegen.rxjava.deprecated}</codegen.rxjava.deprecated>
+                <!-- $lang is replaced by the docgen processor to the target lang -->
+                <docgen.output>${asciidoc.dir}/$lang</docgen.output>
+                <maven.groupId>${project.groupId}</maven.groupId>
+                <maven.artifactId>${project.artifactId}</maven.artifactId>
+                <maven.version>${project.version}</maven.version>
+              </optionMap>
+              <defaultOutputDirectory>${project.build.directory}/generated-sources/annotations</defaultOutputDirectory>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>build-helper-maven-plugin</artifactId>
+        <version>1.12</version>
+        <executions>
+          <execution>
+            <id>add-source</id>
+            <phase>generate-sources</phase>
+            <goals>
+              <goal>add-source</goal>
+            </goals>
+            <configuration>
+              <sources>
+                <source>${generated.dir}</source>
+              </sources>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>kotlin-maven-plugin</artifactId>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <version>1.1.51</version>
+        <executions>
+          <execution>
+            <configuration>
+              <sourceDirs>
+                <sourceDir>${basedir}/src/main/kotlin</sourceDir>
+              </sourceDirs>
+            </configuration>
+            <goals>
+              <goal>compile</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+
+  </build>
+
+  <profiles>
+
+    <!-- Package generation -->
+    <profile>
+      <id>pkg</id>
+
+      <activation>
+        <property>
+          <name>!skipPkg</name>
+        </property>
+      </activation>
+
+      <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <dependencies>
+              <dependency>
+                <groupId>io.vertx</groupId>
+                <artifactId>vertx-ext-resources</artifactId>
+                <version>27</version>
+              </dependency>
+            </dependencies>
+            <executions>
+
+              <!-- Package sources -->
+              <execution>
+                <id>package-sources</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>single</goal>
+                </goals>
+                <configuration>
+                  <attach>true</attach>
+                  <archive>
+                    <!-- Need a manifest to avoid empty archive -->
+                    <manifest>
+                    </manifest>
+                  </archive>
+                  <descriptorRefs>
+                    <descriptorRef>sources</descriptorRef>
+                  </descriptorRefs>
+                </configuration>
+              </execution>
+
+              <!-- Package docs -->
+              <execution>
+                <id>package-docs</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>single</goal>
+                </goals>
+                <configuration>
+                  <skipAssembly>${doc.skip}</skipAssembly>
+                  <attach>true</attach>
+                  <descriptorRefs>
+                    <descriptorRef>docs</descriptorRef>
+                  </descriptorRefs>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+
+    </profile>
+
+    <!-- Documentation generation : activate with -Pdocs -->
+    <profile>
+      <id>docs</id>
+      <pluginRepositories>
+        <pluginRepository>
+          <id>rubygems-releases</id>
+          <url>http://rubygems-proxy.torquebox.org/releases</url>
+        </pluginRepository>
+      </pluginRepositories>
+      <repositories>
+        <repository>
+          <id>rubygems-releases</id>
+          <url>http://rubygems-proxy.torquebox.org/releases</url>
+        </repository>
+      </repositories>
+      <dependencies>
+        <dependency>
+          <groupId>rubygems</groupId>
+          <artifactId>yard</artifactId>
+          <version>0.8.7.6</version>
+          <type>gem</type>
+          <scope>provided</scope>
+        </dependency>
+      </dependencies>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.asciidoctor</groupId>
+            <artifactId>asciidoctor-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <id>asciidoctor</id>
+                <goals>
+                  <goal>process-asciidoc</goal>
+                </goals>
+                <configuration>
+                  <skip>${doc.skip}</skip>
+                </configuration>
+                <phase>prepare-package</phase>
+              </execution>
+            </executions>
+          </plugin>
+
+          <plugin>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <executions>
+              <execution>
+                <phase>prepare-package</phase>
+                <configuration>
+                  <skip>${doc.skip}</skip>
+                  <reportOutputDirectory>${project.build.directory}/docs</reportOutputDirectory>
+                </configuration>
+                <goals>
+                  <goal>javadoc</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>com.phasebash.jsdoc</groupId>
+            <artifactId>jsdoc3-maven-plugin</artifactId>
+            <executions>
+              <execution>
+                <phase>prepare-package</phase>
+                <goals>
+                  <goal>jsdoc3</goal>
+                </goals>
+                <configuration>
+                  <recursive>true</recursive>
+                  <skip>${doc.skip}</skip>
+                  <directoryRoots>
+                    <directoryRoot>${basedir}/src/main/resources</directoryRoot>
+                  </directoryRoots>
+                  <outputDirectory>${project.build.directory}/docs/jsdoc</outputDirectory>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>de.saumya.mojo</groupId>
+            <artifactId>gem-maven-plugin</artifactId>
+            <version>1.1.4</version>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>exec</goal>
+                </goals>
+                <phase>prepare-package</phase>
+                <configuration>
+                  <execArgs>${project.build.directory}/rubygems/bin/yardoc --no-private -m html -o ${project.build.directory}/docs/yardoc ${project.basedir}/src/main/resources/**/*.rb</execArgs>
+                </configuration>
+              </execution>
+            </executions>
+            <dependencies>
+              <dependency>
+                <groupId>rubygems</groupId>
+                <artifactId>yard</artifactId>
+                <version>0.8.7.6</version>
+                <type>gem</type>
+              </dependency>
+              <dependency>
+                <groupId>rubygems</groupId>
+                <artifactId>asciidoctor</artifactId>
+                <version>1.5.3</version>
+                <type>gem</type>
+              </dependency>
+            </dependencies>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-project-info-reports-plugin</artifactId>
+        <version>2.7</version>
+        <reportSets>
+          <reportSet>
+            <reports>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
+
+</project>

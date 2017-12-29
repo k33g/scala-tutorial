@@ -1,0 +1,388 @@
+setting 'ivy.default.settings.dir' to 'jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/sbt/bin/sbt-launch.jar!/org/apache/ivy/core/settings'
+setting 'ivy.basedir' to '/Users/k33g/Dropbox/SNOWCAMP/osx/handson/hello/.'
+setting 'ivy.default.conf.dir' to 'jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/sbt/bin/sbt-launch.jar!/org/apache/ivy/core/settings'
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.SshResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.VsftpResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.version.PatternVersionMatcher in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.trigger.LogTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.ant.AntBuildTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.IvyRepResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.signer.bouncycastle.OpenPGPSignatureGenerator in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.conflict.RegexpConflictManager in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.SFTPResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.osgi.updatesite.UpdateSiteResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.ant.AntCallTrigger in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.MirroredURLResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.packager.PackagerResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.DualResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.VfsResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.plugins.resolver.JarResolver in [] nor Ivy classloader
+impossible to define new type: class not found: org.apache.ivy.osgi.obr.OBRResolver in [] nor Ivy classloader
+impossible to define glob matcher: org.apache.ivy.plugins.matcher.GlobPatternMatcher was not found.
+setting 'jline.esc.timeout' to '0'
+setting 'sbt.ivy.home' to '../_ivy2'
+setting 'java.runtime.name' to 'Java(TM) SE Runtime Environment'
+setting 'sun.boot.library.path' to '/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre/lib'
+setting 'java.vm.version' to '25.151-b12'
+setting 'user.country.format' to 'FR'
+setting 'sbt.global.base' to '../_sbt'
+setting 'gopherProxySet' to 'false'
+setting 'java.vm.vendor' to 'Oracle Corporation'
+setting 'java.vendor.url' to 'http://java.oracle.com/'
+setting 'path.separator' to ':'
+setting 'java.vm.name' to 'Java HotSpot(TM) 64-Bit Server VM'
+setting 'file.encoding.pkg' to 'sun.io'
+setting 'user.country' to 'US'
+setting 'sun.java.launcher' to 'SUN_STANDARD'
+setting 'sun.os.patch.level' to 'unknown'
+setting 'java.vm.specification.name' to 'Java Virtual Machine Specification'
+setting 'user.dir' to '/Users/k33g/Dropbox/SNOWCAMP/osx/handson/hello'
+setting 'java.runtime.version' to '1.8.0_151-b12'
+setting 'java.awt.graphicsenv' to 'sun.awt.CGraphicsEnvironment'
+setting 'java.endorsed.dirs' to '/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre/lib/endorsed'
+setting 'os.arch' to 'x86_64'
+setting 'java.io.tmpdir' to '/var/folders/mz/b05wsbh91d73bpdnhjw212fc0000gn/T/'
+setting 'line.separator' to '
+'
+setting 'java.vm.specification.vendor' to 'Oracle Corporation'
+setting 'os.name' to 'Mac OS X'
+setting 'sun.jnu.encoding' to 'UTF-8'
+setting 'java.library.path' to '/Users/k33g/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.'
+setting 'java.specification.name' to 'Java Platform API Specification'
+setting 'java.class.version' to '52.0'
+setting 'sun.management.compiler' to 'HotSpot 64-Bit Tiered Compilers'
+setting 'os.version' to '10.13'
+setting 'http.nonProxyHosts' to 'local|*.local|169.254/16|*.169.254/16'
+setting 'user.home' to '/Users/k33g'
+setting 'user.timezone' to 'Europe/Paris'
+setting 'java.awt.printerjob' to 'sun.lwawt.macosx.CPrinterJob'
+setting 'file.encoding' to 'UTF8'
+setting 'java.specification.version' to '1.8'
+setting 'java.class.path' to '../sbt/bin/sbt-launch.jar'
+setting 'user.name' to 'k33g'
+setting 'jline.shutdownhook' to 'false'
+setting 'java.vm.specification.version' to '1.8'
+setting 'sun.java.command' to '../sbt/bin/sbt-launch.jar run'
+setting 'java.home' to '/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre'
+setting 'sun.arch.data.model' to '64'
+setting 'user.language' to 'en'
+setting 'java.specification.vendor' to 'Oracle Corporation'
+setting 'awt.toolkit' to 'sun.lwawt.macosx.LWCToolkit'
+setting 'java.vm.info' to 'mixed mode'
+setting 'java.version' to '1.8.0_151'
+setting 'java.ext.dirs' to '/Users/k33g/Library/Java/Extensions:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java'
+setting 'sun.boot.class.path' to '/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre/lib/resources.jar:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre/lib/rt.jar:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre/lib/sunrsasign.jar:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre/lib/jsse.jar:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre/lib/jce.jar:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre/lib/charsets.jar:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre/lib/jfr.jar:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/jdk1.8.0_151-osx/java-osx/jre/classes'
+setting 'java.vendor' to 'Oracle Corporation'
+setting 'file.separator' to '/'
+setting 'java.vendor.url.bug' to 'http://bugreport.sun.com/bugreport/'
+setting 'sun.io.unicode.encoding' to 'UnicodeBig'
+setting 'sun.cpu.endian' to 'little'
+setting 'sbt.boot.directory' to '../_sbt/boot'
+setting 'socksNonProxyHosts' to 'local|*.local|169.254/16|*.169.254/16'
+setting 'ftp.nonProxyHosts' to 'local|*.local|169.254/16|*.169.254/16'
+setting 'sun.cpu.isalist' to ''
+setting 'ivy.default.ivy.user.dir' to '/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2'
+setting 'ivy.home' to '/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2'
+setting 'ivy.cache.dir' to '/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache'
+no default cache defined: set to /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache
+setting 'ivy.checksums' to 'sha1,md5'
+setting 'ivy.basedir' to '/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot'
+setting 'basedir' to '/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot'
+setting 'scala' to '2.12.4'
+:: resolving dependencies :: org.scala-sbt#boot-scala;1.0
+	confs: [default]
+	validate = true
+	refresh = false
+resolving dependencies for configuration 'default'
+== resolving dependencies for org.scala-sbt#boot-scala;1.0 [default]
+loadData of org.scala-sbt#boot-scala;1.0 of rootConf=default
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.12.4 [default->default]
+loadData of org.scala-lang#scala-compiler;2.12.4 of rootConf=default
+	using redefined-public to resolve org.scala-lang#scala-compiler;2.12.4
+redefined-public: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.4 {default=[default, optional(default)]}
+redefined-public: no namespace defined: using system
+No entry is found in the ModuleDescriptorCache : /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.4.xml
+post 1.3 ivy file: using exact as default matcher
+	resolver not found: null => trying to use the one configured for org.scala-lang#scala-compiler;2.12.4
+	configured resolver found for org.scala-lang#scala-compiler;2.12.4: redefined-public: saving this data
+	found ivy file in cache for org.scala-lang#scala-compiler;2.12.4 (resolved by redefined-public): /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang/scala-compiler/ivy-2.12.4.xml
+redefined-public: module revision found in cache: org.scala-lang#scala-compiler;2.12.4
+redefined-public: no latest strategy defined: using default
+	found org.scala-lang#scala-compiler;2.12.4 in redefined-public
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.12.4 [default->runtime]
+loadData of org.scala-lang#scala-compiler;2.12.4 of rootConf=default
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.12.4 [default->compile]
+loadData of org.scala-lang#scala-compiler;2.12.4 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-library;2.12.4 [compile->master(*)]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+	using redefined-public to resolve org.scala-lang#scala-library;2.12.4
+redefined-public: Checking cache for: dependency: org.scala-lang#scala-library;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+No entry is found in the ModuleDescriptorCache : /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang/scala-library/ivy-2.12.4.xml
+post 1.3 ivy file: using exact as default matcher
+	resolver not found: null => trying to use the one configured for org.scala-lang#scala-library;2.12.4
+	configured resolver found for org.scala-lang#scala-library;2.12.4: redefined-public: saving this data
+	found ivy file in cache for org.scala-lang#scala-library;2.12.4 (resolved by redefined-public): /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang/scala-library/ivy-2.12.4.xml
+redefined-public: module revision found in cache: org.scala-lang#scala-library;2.12.4
+	found org.scala-lang#scala-library;2.12.4 in redefined-public
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-library;2.12.4 [compile->default]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-library;2.12.4 [compile->runtime]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-library;2.12.4 [compile->compile]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-library;2.12.4 [compile->master]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-library;2.12.4 [compile->runtime(*)]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-library;2.12.4 [compile->compile]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-reflect;2.12.4 [compile->master(*)]
+loadData of org.scala-lang#scala-reflect;2.12.4 of rootConf=default
+	using redefined-public to resolve org.scala-lang#scala-reflect;2.12.4
+redefined-public: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+No entry is found in the ModuleDescriptorCache : /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.4.xml
+post 1.3 ivy file: using exact as default matcher
+	resolver not found: null => trying to use the one configured for org.scala-lang#scala-reflect;2.12.4
+	configured resolver found for org.scala-lang#scala-reflect;2.12.4: redefined-public: saving this data
+	found ivy file in cache for org.scala-lang#scala-reflect;2.12.4 (resolved by redefined-public): /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.4.xml
+redefined-public: module revision found in cache: org.scala-lang#scala-reflect;2.12.4
+	found org.scala-lang#scala-reflect;2.12.4 in redefined-public
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-reflect;2.12.4 [compile->compile(*)]
+loadData of org.scala-lang#scala-reflect;2.12.4 of rootConf=default
+== resolving dependencies org.scala-lang#scala-reflect;2.12.4->org.scala-lang#scala-library;2.12.4 [compile->master(*)]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-reflect;2.12.4->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-reflect;2.12.4 [compile->runtime(*)]
+loadData of org.scala-lang#scala-reflect;2.12.4 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-reflect;2.12.4 [compile->compile]
+loadData of org.scala-lang#scala-reflect;2.12.4 of rootConf=default
+== resolving dependencies org.scala-lang#scala-reflect;2.12.4->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-reflect;2.12.4->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->master(*)]
+loadData of org.scala-lang.modules#scala-xml_2.12;1.0.6 of rootConf=default
+	using redefined-public to resolve org.scala-lang.modules#scala-xml_2.12;1.0.6
+redefined-public: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+No entry is found in the ModuleDescriptorCache : /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml
+post 1.3 ivy file: using exact as default matcher
+	resolver not found: null => trying to use the one configured for org.scala-lang.modules#scala-xml_2.12;1.0.6
+	configured resolver found for org.scala-lang.modules#scala-xml_2.12;1.0.6: redefined-public: saving this data
+	found ivy file in cache for org.scala-lang.modules#scala-xml_2.12;1.0.6 (resolved by redefined-public): /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang.modules/scala-xml_2.12/ivy-1.0.6.xml
+redefined-public: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6
+	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in redefined-public
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)]
+loadData of org.scala-lang.modules#scala-xml_2.12;1.0.6 of rootConf=default
+== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.0 [compile->master(*)]
+loadData of org.scala-lang#scala-library;2.12.0 of rootConf=default
+default is evicted.  Skip loading
+== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.4 [compile->master(*)]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.0 [compile->compile(*)]
+loadData of org.scala-lang#scala-library;2.12.0 of rootConf=default
+default is evicted.  Skip loading
+== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.4 [compile->compile(*)]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)]
+loadData of org.scala-lang.modules#scala-xml_2.12;1.0.6 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile]
+loadData of org.scala-lang.modules#scala-xml_2.12;1.0.6 of rootConf=default
+== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.0 [runtime->runtime(*)]
+loadData of org.scala-lang#scala-library;2.12.0 of rootConf=default
+default is evicted.  Skip loading
+== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-library;2.12.4 [runtime->runtime(*)]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-library;2.12.4 [runtime->compile]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-reflect;2.12.4 [runtime->runtime(*)]
+loadData of org.scala-lang#scala-reflect;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang#scala-reflect;2.12.4 [runtime->compile]
+loadData of org.scala-lang#scala-reflect;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
+loadData of org.scala-lang.modules#scala-xml_2.12;1.0.6 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
+loadData of org.scala-lang.modules#scala-xml_2.12;1.0.6 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.12.4 [default->master]
+loadData of org.scala-lang#scala-compiler;2.12.4 of rootConf=default
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-compiler;2.12.4 [default->optional(default)]
+loadData of org.scala-lang#scala-compiler;2.12.4 of rootConf=default
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->jline#jline;2.14.5 [optional->master(*)]
+loadData of jline#jline;2.14.5 of rootConf=default
+	using redefined-public to resolve jline#jline;2.14.5
+redefined-public: Checking cache for: dependency: jline#jline;2.14.5 {optional=[compile(*), master(*)]}
+	no ivy file in cache for jline#jline;2.14.5: tried /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/jline/jline/ivy-2.14.5.xml
+local: no namespace defined: using system
+	no ivy file in cache for jline#jline;2.14.5: tried /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/jline/jline/ivy-2.14.5.xml
+	 trying /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/local/jline/jline/2.14.5/ivys/ivy.xml
+		tried /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/local/jline/jline/2.14.5/ivys/ivy.xml
+	local: resource not reachable for jline#jline;2.14.5: res=/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/local/jline/jline/2.14.5/ivys/ivy.xml
+	 trying /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/local/jline/jline/2.14.5/jars/jline.jar
+		tried /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/local/jline/jline/2.14.5/jars/jline.jar
+	local: resource not reachable for jline#jline;2.14.5: res=/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/local/jline/jline/2.14.5/jars/jline.jar
+	local: no ivy file nor artifact found for jline#jline;2.14.5
+local-preloaded-ivy: no namespace defined: using system
+	no ivy file in cache for jline#jline;2.14.5: tried /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/jline/jline/ivy-2.14.5.xml
+	 trying file:/../_sbt/preloaded/jline/jline/2.14.5/ivys/ivy.xml
+		tried file:/../_sbt/preloaded/jline/jline/2.14.5/ivys/ivy.xml
+	local-preloaded-ivy: resource not reachable for jline#jline;2.14.5: res=file:/../_sbt/preloaded/jline/jline/2.14.5/ivys/ivy.xml
+	local-preloaded-ivy: no ivy file found for jline#jline;2.14.5
+local-preloaded: no namespace defined: using system
+	no ivy file in cache for jline#jline;2.14.5: tried /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/jline/jline/ivy-2.14.5.xml
+	 trying file:/../_sbt/preloaded/jline/jline/2.14.5/jline-2.14.5.pom
+		tried file:/../_sbt/preloaded/jline/jline/2.14.5/jline-2.14.5.pom
+	local-preloaded: resource not reachable for jline#jline;2.14.5: res=file:/../_sbt/preloaded/jline/jline/2.14.5/jline-2.14.5.pom
+	 trying file:/../_sbt/preloaded/jline/jline/2.14.5/jline-2.14.5.jar
+		tried file:/../_sbt/preloaded/jline/jline/2.14.5/jline-2.14.5.jar
+	local-preloaded: resource not reachable for jline#jline;2.14.5: res=file:/../_sbt/preloaded/jline/jline/2.14.5/jline-2.14.5.jar
+	local-preloaded: no ivy file nor artifact found for jline#jline;2.14.5
+Maven Central: no namespace defined: using system
+	no ivy file in cache for jline#jline;2.14.5: tried /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/jline/jline/ivy-2.14.5.xml
+	 trying https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.pom
+		tried https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.pom
+	Maven Central: found md file for jline#jline;2.14.5
+		=> https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.pom (2.14.5)
+	parser = pom parser
+	no ivy file in cache for jline#jline;2.14.5: tried /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/jline/jline/ivy-2.14.5.xml
+downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.pom ...
+	Maven Central: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.pom
+		to /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/jline/jline/ivy-2.14.5.xml.original.part
+sha1 file found for https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.pom: checking...
+	Maven Central: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.pom.sha1
+		to /var/folders/mz/b05wsbh91d73bpdnhjw212fc0000gn/T/ivytmp3349728583839901493sha1
+sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.pom
+	[SUCCESSFUL ] jline#jline;2.14.5!jline.pom(pom.original) (3094ms)
+redefined-public: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
+No entry is found in the ModuleDescriptorCache : /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.sonatype.oss/oss-parent/ivy-9.xml
+post 1.3 ivy file: using exact as default matcher
+	resolver not found: null => trying to use the one configured for org.sonatype.oss#oss-parent;9
+	configured resolver found for org.sonatype.oss#oss-parent;9: redefined-public: saving this data
+	found ivy file in cache for org.sonatype.oss#oss-parent;9 (resolved by redefined-public): /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.sonatype.oss/oss-parent/ivy-9.xml
+redefined-public: module revision found in cache: org.sonatype.oss#oss-parent;9
+	 trying /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/local/jline/jline/2.14.5/jars/jline.jar
+		tried /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/local/jline/jline/2.14.5/jars/jline.jar
+	local: resource not reachable for jline#jline;2.14.5: res=/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/local/jline/jline/2.14.5/jars/jline.jar
+	 trying file:/../_sbt/preloaded/jline/jline/2.14.5/jars/jline.jar
+		tried file:/../_sbt/preloaded/jline/jline/2.14.5/jars/jline.jar
+	local-preloaded-ivy: resource not reachable for jline#jline;2.14.5: res=file:/../_sbt/preloaded/jline/jline/2.14.5/jars/jline.jar
+	 trying file:/../_sbt/preloaded/jline/jline/2.14.5/jline-2.14.5.jar
+		tried file:/../_sbt/preloaded/jline/jline/2.14.5/jline-2.14.5.jar
+	local-preloaded: resource not reachable for jline#jline;2.14.5: res=file:/../_sbt/preloaded/jline/jline/2.14.5/jline-2.14.5.jar
+	 trying https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.jar
+		tried https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.jar
+no source artifact found for jline#jline;2.14.5
+no javadoc artifact found for jline#jline;2.14.5
+	default-cache: parsed downloaded md file for jline#jline;2.14.5; parsed=jline#jline;2.14.5
+	checking jline#jline;2.14.5 from Maven Central against [none]
+	module revision kept as first found: jline#jline;2.14.5 from Maven Central
+	found jline#jline;2.14.5 in Maven Central
+== resolving dependencies org.scala-lang#scala-compiler;2.12.4->jline#jline;2.14.5 [optional->compile(*)]
+loadData of jline#jline;2.14.5 of rootConf=default
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-library;2.12.4 [default->default]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-library;2.12.4 [default->runtime]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-library;2.12.4 [default->compile]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+== resolving dependencies org.scala-sbt#boot-scala;1.0->org.scala-lang#scala-library;2.12.4 [default->master]
+loadData of org.scala-lang#scala-library;2.12.4 of rootConf=default
+default is loaded and no conf to load.  Skip loading
+Nbr of module to sort : 5
+Sort dependencies of : org.scala-lang#scala-compiler;2.12.4 / Number of dependencies = 4
+Sort dependencies of : org.scala-lang#scala-library;2.12.4 / Number of dependencies = 0
+Sort done for : org.scala-lang#scala-library;2.12.4
+Sort dependencies of : org.scala-lang#scala-reflect;2.12.4 / Number of dependencies = 1
+Module descriptor is processed : org.scala-lang#scala-library;2.12.4
+Sort done for : org.scala-lang#scala-reflect;2.12.4
+Sort dependencies of : org.scala-lang.modules#scala-xml_2.12;1.0.6 / Number of dependencies = 4
+Non matching revision detected when sorting.  org.scala-lang.modules#scala-xml_2.12 depends on org.scala-lang#scala-compiler;2.12.0, doesn't match org.scala-lang#scala-compiler;2.12.4
+Non matching revision detected when sorting.  org.scala-lang.modules#scala-xml_2.12 depends on org.scala-lang#scala-library;2.12.0, doesn't match org.scala-lang#scala-library;2.12.4
+Sort done for : org.scala-lang.modules#scala-xml_2.12;1.0.6
+Sort dependencies of : jline#jline;2.14.5 / Number of dependencies = 4
+Sort done for : jline#jline;2.14.5
+Sort done for : org.scala-lang#scala-compiler;2.12.4
+Module descriptor is processed : org.scala-lang#scala-library;2.12.4
+Module descriptor is processed : org.scala-lang#scala-reflect;2.12.4
+Module descriptor is processed : org.scala-lang.modules#scala-xml_2.12;1.0.6
+Module descriptor is processed : jline#jline;2.14.5
+storing dependency org.scala-lang#scala-compiler;2.12.4 in props
+storing dependency org.scala-lang#scala-library;2.12.4 in props
+	resolved ivy file produced in cache
+:: downloading artifacts ::
+	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar
+	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar
+	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar
+	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
+	 trying https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.jar
+		tried https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.jar
+downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.jar ...
+	Maven Central: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.jar
+		to /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/jline/jline/jars/jline-2.14.5.jar.part
+sha1 file found for https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.jar: checking...
+	Maven Central: downloading https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.jar.sha1
+		to /var/folders/mz/b05wsbh91d73bpdnhjw212fc0000gn/T/ivytmp7530923509108479193sha1
+sha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.5/jline-2.14.5.jar
+	[SUCCESSFUL ] jline#jline;2.14.5!jline.jar (182ms)
+:: resolution report :: resolve 4534ms :: artifacts dl 185ms
+Nbr of module to sort : 5
+Sort dependencies of : org.scala-lang#scala-compiler;2.12.4 / Number of dependencies = 4
+Sort dependencies of : org.scala-lang#scala-library;2.12.4 / Number of dependencies = 0
+Sort done for : org.scala-lang#scala-library;2.12.4
+Sort dependencies of : org.scala-lang#scala-reflect;2.12.4 / Number of dependencies = 1
+Module descriptor is processed : org.scala-lang#scala-library;2.12.4
+Sort done for : org.scala-lang#scala-reflect;2.12.4
+Sort dependencies of : org.scala-lang.modules#scala-xml_2.12;1.0.6 / Number of dependencies = 4
+Non matching revision detected when sorting.  org.scala-lang.modules#scala-xml_2.12 depends on org.scala-lang#scala-compiler;2.12.0, doesn't match org.scala-lang#scala-compiler;2.12.4
+Non matching revision detected when sorting.  org.scala-lang.modules#scala-xml_2.12 depends on org.scala-lang#scala-library;2.12.0, doesn't match org.scala-lang#scala-library;2.12.4
+Sort done for : org.scala-lang.modules#scala-xml_2.12;1.0.6
+Sort dependencies of : jline#jline;2.14.5 / Number of dependencies = 4
+Sort done for : jline#jline;2.14.5
+Sort done for : org.scala-lang#scala-compiler;2.12.4
+Module descriptor is processed : org.scala-lang#scala-library;2.12.4
+Module descriptor is processed : org.scala-lang#scala-reflect;2.12.4
+Module descriptor is processed : org.scala-lang.modules#scala-xml_2.12;1.0.6
+Module descriptor is processed : jline#jline;2.14.5
+	report for org.scala-sbt#boot-scala;1.0 default produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/resolution-cache/org.scala-sbt-boot-scala-default.xml
+	resolve done (4534ms resolve - 185ms download)
+setting 'scala' to '2.12.4'
+:: retrieving :: org.scala-sbt#boot-scala
+	checkUpToDate=true
+post 1.3 ivy file: using exact as default matcher
+no explicit confs given for retrieve, using ivy file: file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/resolution-cache/resolved-org.scala-sbt-boot-scala-1.0.xml
+	confs: [default]
+	retrieving /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/jline/jline/jars/jline-2.14.5.jar
+		to /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/lib/jline.jar
+	retrieving /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.4.jar
+		to /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/lib/scala-library.jar
+	retrieving /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar
+		to /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/lib/scala-xml_2.12.jar
+	retrieving /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.4.jar
+		to /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/lib/scala-compiler.jar
+	retrieving /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.4.jar
+		to /Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/lib/scala-reflect.jar
+	5 artifacts copied, 0 already retrieved (18986kB/93ms)
+	retrieve done (93ms)

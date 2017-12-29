@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.clapper</groupId>
+    <artifactId>scalasti_2.12</artifactId>
+    <packaging>jar</packaging>
+    <description>A Scala-friendly wrapper for Terence Parr's ST library</description>
+    <url>http://software.clapper.org/scalasti/</url>
+    <version>2.1.2</version>
+    <licenses>
+        <license>
+            <name>BSD</name>
+            <url>http://software.clapper.org/scalasti/license.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>scalasti</name>
+    <organization>
+        <name>org.clapper</name>
+        <url>http://software.clapper.org/scalasti/</url>
+    </organization>
+    <scm>
+        <url>git@github.com:bmc/scalasti.git/</url>
+        <connection>scm:git:git@github.com:bmc/scalasti.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>bmc</id>
+            <name>Brian Clapper</name>
+            <url>https://github.com/bmc</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scalatest</groupId>
+            <artifactId>scalatest_2.12</artifactId>
+            <version>3.0.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.clapper</groupId>
+            <artifactId>grizzled-scala_2.12</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.clapper</groupId>
+            <artifactId>classutil_2.12</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.antlr</groupId>
+            <artifactId>ST4</artifactId>
+            <version>4.0.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-reflect</artifactId>
+            <version>2.12.0</version>
+        </dependency>
+    </dependencies>
+</project>

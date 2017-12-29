@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="io.vertx"
+		module="vertx-core"
+		revision="3.5.0"
+		status="release"
+		publication="20171017155027"
+	>
+		<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt" />
+		<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html" />
+		<description homepage="" />
+		<m:dependency.management__io.vertx__vertx-web-parent__version>3.5.0</m:dependency.management__io.vertx__vertx-web-parent__version>
+		<m:dependency.management__io.vertx__vertx-service-discovery__version>3.5.0</m:dependency.management__io.vertx__vertx-service-discovery__version>
+		<m:properties__assertj.version>3.4.1</m:properties__assertj.version>
+		<m:properties__generated.dir>${project.basedir}/src/main/generated</m:properties__generated.dir>
+		<m:dependency.management__io.vertx__vertx-tcp-eventbus-bridge__version>3.5.0</m:dependency.management__io.vertx__vertx-tcp-eventbus-bridge__version>
+		<m:properties__junit.version>4.12</m:properties__junit.version>
+		<m:dependency.management__io.vertx__vertx-stomp__version>3.5.0</m:dependency.management__io.vertx__vertx-stomp__version>
+		<m:properties__maven.dependency.plugin.version>2.10</m:properties__maven.dependency.plugin.version>
+		<m:properties__maven.deploy.plugin.version>2.8.2</m:properties__maven.deploy.plugin.version>
+		<m:dependency.management__io.vertx__vertx-consul__version>3.5.0</m:dependency.management__io.vertx__vertx-consul__version>
+		<m:dependency.management__io.netty__netty-codec-http2__version>4.1.15.Final</m:dependency.management__io.netty__netty-codec-http2__version>
+		<m:dependency.management__io.vertx__vertx-service-discovery-backend-redis__version>3.5.0</m:dependency.management__io.vertx__vertx-service-discovery-backend-redis__version>
+		<m:dependency.management__io.vertx__vertx-lang-ruby__version>3.5.0</m:dependency.management__io.vertx__vertx-lang-ruby__version>
+		<m:dependency.management__io.vertx__vertx-hawkular-metrics__version>3.5.0</m:dependency.management__io.vertx__vertx-hawkular-metrics__version>
+		<m:properties__jmh.version>1.19</m:properties__jmh.version>
+		<m:dependency.management__io.vertx__vertx-lang-ceylon__version>3.5.0</m:dependency.management__io.vertx__vertx-lang-ceylon__version>
+		<m:properties__maven.enforcer.plugin.version>1.4.1</m:properties__maven.enforcer.plugin.version>
+		<m:dependency.management__io.vertx__vertx-maven-service-factory-parent__version>3.5.0</m:dependency.management__io.vertx__vertx-maven-service-factory-parent__version>
+		<m:dependency.management__io.vertx__vertx-rx-groovy__version>3.5.0</m:dependency.management__io.vertx__vertx-rx-groovy__version>
+		<m:dependency.management__io.vertx__vertx-jca-adapter__version>3.5.0</m:dependency.management__io.vertx__vertx-jca-adapter__version>
+		<m:dependency.management__io.vertx__vertx-config-zookeeper__version>3.5.0</m:dependency.management__io.vertx__vertx-config-zookeeper__version>
+		<m:dependency.management__io.vertx__vertx-lang-kotlin-compiler__version>3.5.0</m:dependency.management__io.vertx__vertx-lang-kotlin-compiler__version>
+		<m:properties__project.reporting.outputEncoding>UTF-8</m:properties__project.reporting.outputEncoding>
+		<m:dependency.management__io.vertx__vertx-config-kubernetes-configmap__version>3.5.0</m:dependency.management__io.vertx__vertx-config-kubernetes-configmap__version>
+		<m:dependency.management__io.vertx__vertx-web__version>3.5.0</m:dependency.management__io.vertx__vertx-web__version>
+		<m:dependency.management__io.vertx__vertx-jgroups__version>3.5.0</m:dependency.management__io.vertx__vertx-jgroups__version>
+		<m:dependency.management__io.vertx__vertx-config-parent__version>3.5.0</m:dependency.management__io.vertx__vertx-config-parent__version>
+		<m:dependency.management__io.vertx__vertx-sync__version>3.5.0</m:dependency.management__io.vertx__vertx-sync__version>
+		<m:dependency.management__io.netty__netty-handler-proxy__version>4.1.15.Final</m:dependency.management__io.netty__netty-handler-proxy__version>
+		<m:dependency.management__io.netty__netty-buffer__version>4.1.15.Final</m:dependency.management__io.netty__netty-buffer__version>
+		<m:dependency.management__io.netty__netty-transport-native-epoll__version>4.1.15.Final</m:dependency.management__io.netty__netty-transport-native-epoll__version>
+		<m:dependency.management__io.vertx__vertx-auth-jwt__version>3.5.0</m:dependency.management__io.vertx__vertx-auth-jwt__version>
+		<m:dependency.management__io.vertx__vertx-jwt__version>3.5.0</m:dependency.management__io.vertx__vertx-jwt__version>
+		<m:dependency.management__io.vertx__vertx-service-discovery-parent__version>3.5.0</m:dependency.management__io.vertx__vertx-service-discovery-parent__version>
+		<m:dependency.management__io.vertx__vertx-mongo__version>3.5.0</m:dependency.management__io.vertx__vertx-mongo__version>
+		<m:dependency.management__io.vertx__vertx-consul-service__version>3.5.0</m:dependency.management__io.vertx__vertx-consul-service__version>
+		<m:dependency.management__io.vertx__vertx-rx-java__version>3.5.0</m:dependency.management__io.vertx__vertx-rx-java__version>
+		<m:dependency.management__io.vertx__vertx-mail-service__version>3.5.0</m:dependency.management__io.vertx__vertx-mail-service__version>
+		<m:dependency.management__io.vertx__vertx-auth__version>3.5.0</m:dependency.management__io.vertx__vertx-auth__version>
+		<m:properties__maven.jar.plugin.version>3.0.2</m:properties__maven.jar.plugin.version>
+		<m:dependency.management__io.vertx__vertx-web-templ-freemarker__version>3.5.0</m:dependency.management__io.vertx__vertx-web-templ-freemarker__version>
+		<m:properties__vertx.testNativeTransport>false</m:properties__vertx.testNativeTransport>
+		<m:dependency.management__io.vertx__vertx-hazelcast__version>3.5.0</m:dependency.management__io.vertx__vertx-hazelcast__version>
+		<m:dependency.management__io.vertx__vertx-rx__version>3.5.0</m:dependency.management__io.vertx__vertx-rx__version>
+		<m:dependency.management__io.vertx__vertx-config-yaml__version>3.5.0</m:dependency.management__io.vertx__vertx-config-yaml__version>
+		<m:dependency.management__io.vertx__vertx-web-templ-pebble__version>3.5.0</m:dependency.management__io.vertx__vertx-web-templ-pebble__version>
+		<m:dependency.management__io.vertx__vertx-auth-oauth2__version>3.5.0</m:dependency.management__io.vertx__vertx-auth-oauth2__version>
+		<m:dependency.management__io.vertx__vertx-zookeeper__version>3.5.0</m:dependency.management__io.vertx__vertx-zookeeper__version>
+		<m:dependency.management__io.vertx__vertx-service-discovery-bridge-docker__version>3.5.0</m:dependency.management__io.vertx__vertx-service-discovery-bridge-docker__version>
+		<m:dependency.management__io.vertx__vertx-auth-mongo__version>3.5.0</m:dependency.management__io.vertx__vertx-auth-mongo__version>
+		<m:dependency.management__io.vertx__vertx-service-discovery-bridge-kubernetes__version>3.5.0</m:dependency.management__io.vertx__vertx-service-discovery-bridge-kubernetes__version>
+		<e:sbtTransformHash>f9c4c3d401a0c734da319b36851e456720d16765</e:sbtTransformHash>
+		<m:dependency.management__io.vertx__vertx-http-service-factory__version>3.5.0</m:dependency.management__io.vertx__vertx-http-service-factory__version>
+		<m:dependency.management__io.vertx__vertx-mysql-postgresql-client__version>3.5.0</m:dependency.management__io.vertx__vertx-mysql-postgresql-client__version>
+		<m:properties__maven.compiler.target>1.8</m:properties__maven.compiler.target>
+		<m:dependency.management__io.vertx__vertx-kafka-client__version>3.5.0</m:dependency.management__io.vertx__vertx-kafka-client__version>
+		<m:dependency.management__io.netty__netty-common__version>4.1.15.Final</m:dependency.management__io.netty__netty-common__version>
+		<m:properties__sonatypeOssDistMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</m:properties__sonatypeOssDistMgmtSnapshotsUrl>
+		<m:maven.plugins>org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-enforcer-plugin__1.0|org.apache.maven.plugins__maven-source-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.bsc.maven__maven-processor-plugin__3.1.0|org.codehaus.mojo__build-helper-maven-plugin__3.0.0|org.apache.maven.plugins__maven-failsafe-plugin__2.19.1|null__maven-assembly-plugin__null|null__maven-jar-plugin__null|org.apache.felix__maven-bundle-plugin__2.5.3</m:maven.plugins>
+		<m:properties__maven.jsdoc.plugin.version>1.2.0</m:properties__maven.jsdoc.plugin.version>
+		<m:dependency.management__io.vertx__vertx-lang-groovy__version>3.5.0</m:dependency.management__io.vertx__vertx-lang-groovy__version>
+		<m:dependency.management__io.vertx__vertx-mqtt__version>3.5.0</m:dependency.management__io.vertx__vertx-mqtt__version>
+		<m:dependency.management__io.netty__netty-transport__version>4.1.15.Final</m:dependency.management__io.netty__netty-transport__version>
+		<m:dependency.management__io.vertx__vertx-health-check__version>3.5.0</m:dependency.management__io.vertx__vertx-health-check__version>
+		<m:dependency.management__io.vertx__vertx-web-templ-jade__version>3.5.0</m:dependency.management__io.vertx__vertx-web-templ-jade__version>
+		<m:properties__maven.surefire.report.plugin.version>2.18.1</m:properties__maven.surefire.report.plugin.version>
+		<m:dependency.management__io.vertx__vertx-mongo-embedded-db__version>3.5.0</m:dependency.management__io.vertx__vertx-mongo-embedded-db__version>
+		<m:dependency.management__io.vertx__vertx-ignite__version>3.5.0</m:dependency.management__io.vertx__vertx-ignite__version>
+		<m:dependency.management__io.vertx__vertx-docgen__version>3.5.0</m:dependency.management__io.vertx__vertx-docgen__version>
+		<m:dependency.management__io.netty__netty-resolver-dns__version>4.1.15.Final</m:dependency.management__io.netty__netty-resolver-dns__version>
+		<m:dependency.management__io.vertx__vertx-sockjs-service-proxy__version>3.5.0</m:dependency.management__io.vertx__vertx-sockjs-service-proxy__version>
+		<m:dependency.management__io.vertx__vertx-consul-client__version>3.5.0</m:dependency.management__io.vertx__vertx-consul-client__version>
+		<m:dependency.management__io.vertx__vertx-sql-common__version>3.5.0</m:dependency.management__io.vertx__vertx-sql-common__version>
+		<m:dependency.management__io.vertx__vertx-rx-java2__version>3.5.0</m:dependency.management__io.vertx__vertx-rx-java2__version>
+		<m:dependency.management__io.vertx__vertx-web-templ-mvel__version>3.5.0</m:dependency.management__io.vertx__vertx-web-templ-mvel__version>
+		<m:properties__maven.site.plugin.version>3.4</m:properties__maven.site.plugin.version>
+		<m:dependency.management__io.netty__netty-tcnative-boringssl-static__scope>test</m:dependency.management__io.netty__netty-tcnative-boringssl-static__scope>
+		<m:dependency.management__io.vertx__vertx-lang-ceylon-parent__version>3.5.0</m:dependency.management__io.vertx__vertx-lang-ceylon-parent__version>
+		<m:dependency.management__io.vertx__vertx-lang-kotlin__version>3.5.0</m:dependency.management__io.vertx__vertx-lang-kotlin__version>
+		<m:dependency.management__io.vertx__vertx-auth-common__version>3.5.0</m:dependency.management__io.vertx__vertx-auth-common__version>
+		<m:properties__maven.clean.plugin.version>3.0.0</m:properties__maven.clean.plugin.version>
+		<m:dependency.management__io.vertx__vertx-codegen__version>3.5.0</m:dependency.management__io.vertx__vertx-codegen__version>
+		<m:dependency.management__io.vertx__vertx-circuit-breaker__version>3.5.0</m:dependency.management__io.vertx__vertx-circuit-breaker__version>
+		<m:dependency.management__io.vertx__vertx-lang-js__version>3.5.0</m:dependency.management__io.vertx__vertx-lang-js__version>
+		<m:dependency.management__io.vertx__vertx-unit__version>3.5.0</m:dependency.management__io.vertx__vertx-unit__version>
+		<m:dependency.management__io.vertx__vertx-jdbc-client__version>3.5.0</m:dependency.management__io.vertx__vertx-jdbc-client__version>
+		<m:dependency.management__io.vertx__vertx-reactive-streams__version>3.5.0</m:dependency.management__io.vertx__vertx-reactive-streams__version>
+		<m:dependency.management__io.vertx__vertx-rx-js__version>3.5.0</m:dependency.management__io.vertx__vertx-rx-js__version>
+		<m:dependency.management__io.vertx__vertx-config-hocon__version>3.5.0</m:dependency.management__io.vertx__vertx-config-hocon__version>
+		<m:properties__maven.asciidoctor.plugin.version>1.5.3</m:properties__maven.asciidoctor.plugin.version>
+		<m:dependency.management__io.vertx__vertx-core__version>3.5.0</m:dependency.management__io.vertx__vertx-core__version>
+		<m:dependency.management__io.vertx__vertx-web-templ-handlebars__version>3.5.0</m:dependency.management__io.vertx__vertx-web-templ-handlebars__version>
+		<m:dependency.management__io.vertx__vertx-mongo-client__version>3.5.0</m:dependency.management__io.vertx__vertx-mongo-client__version>
+		<m:dependency.management__io.vertx__vertx-service-discovery-bridge-docker-links__version>3.5.0</m:dependency.management__io.vertx__vertx-service-discovery-bridge-docker-links__version>
+		<m:properties__slf4j.version>1.7.21</m:properties__slf4j.version>
+		<m:dependency.management__io.vertx__vertx-infinispan__version>3.5.0</m:dependency.management__io.vertx__vertx-infinispan__version>
+		<m:dependency.management__io.vertx__vertx-config-git__version>3.5.0</m:dependency.management__io.vertx__vertx-config-git__version>
+		<m:dependency.management__io.vertx__vertx-lang-kotlin-parent__version>3.5.0</m:dependency.management__io.vertx__vertx-lang-kotlin-parent__version>
+		<m:dependency.management__io.vertx__vertx-maven-service-factory__version>3.5.0</m:dependency.management__io.vertx__vertx-maven-service-factory__version>
+		<m:properties__maven.dependency.versions.check.plugin.version>2.0.2</m:properties__maven.dependency.versions.check.plugin.version>
+		<m:dependency.management__io.vertx__vertx-jca-api__version>3.5.0</m:dependency.management__io.vertx__vertx-jca-api__version>
+		<m:properties__maven.source.plugin.version>3.0.1</m:properties__maven.source.plugin.version>
+		<m:dependency.management__io.netty__netty-codec-http__version>4.1.15.Final</m:dependency.management__io.netty__netty-codec-http__version>
+		<m:dependency.management__io.vertx__vertx-amqp-bridge__version>3.5.0</m:dependency.management__io.vertx__vertx-amqp-bridge__version>
+		<m:dependency.management__io.netty__netty-resolver__version>4.1.15.Final</m:dependency.management__io.netty__netty-resolver__version>
+		<m:dependency.management__io.netty__netty-codec-mqtt__version>4.1.15.Final</m:dependency.management__io.netty__netty-codec-mqtt__version>
+		<m:dependency.management__io.vertx__vertx-service-proxy__version>3.5.0</m:dependency.management__io.vertx__vertx-service-proxy__version>
+		<m:dependency.management__io.vertx__vertx-bridge-common__version>3.5.0</m:dependency.management__io.vertx__vertx-bridge-common__version>
+		<m:dependency.management__io.vertx__vertx-proton__version>3.5.0</m:dependency.management__io.vertx__vertx-proton__version>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-core__version>2.9.0</m:dependency.management__com.fasterxml.jackson.core__jackson-core__version>
+		<m:dependency.management__io.vertx__vertx-dropwizard-metrics__version>3.5.0</m:dependency.management__io.vertx__vertx-dropwizard-metrics__version>
+		<m:dependency.management__io.vertx__vertx-mongo-service__version>3.5.0</m:dependency.management__io.vertx__vertx-mongo-service__version>
+		<m:dependency.management__io.vertx__vertx-jca__version>3.5.0</m:dependency.management__io.vertx__vertx-jca__version>
+		<m:dependency.management__io.vertx__vertx-web-api-contract__version>3.5.0</m:dependency.management__io.vertx__vertx-web-api-contract__version>
+		<m:dependency.management__io.vertx__vertx-config__version>3.5.0</m:dependency.management__io.vertx__vertx-config__version>
+		<m:dependency.management__com.fasterxml.jackson.core__jackson-databind__version>2.9.0</m:dependency.management__com.fasterxml.jackson.core__jackson-databind__version>
+		<m:dependency.management__io.vertx__vertx-config-spring-config-server__version>3.5.0</m:dependency.management__io.vertx__vertx-config-spring-config-server__version>
+		<m:properties__maven.assembly.plugin.version>3.1.0</m:properties__maven.assembly.plugin.version>
+		<m:dependency.management__io.vertx__vertx-web-common__version>3.5.0</m:dependency.management__io.vertx__vertx-web-common__version>
+		<m:dependency.management__io.vertx__vertx-web-client__version>3.5.0</m:dependency.management__io.vertx__vertx-web-client__version>
+		<m:dependency.management__io.vertx__vertx-config-redis__version>3.5.0</m:dependency.management__io.vertx__vertx-config-redis__version>
+		<m:dependency.management__io.vertx__vertx-auth-jdbc__version>3.5.0</m:dependency.management__io.vertx__vertx-auth-jdbc__version>
+		<m:dependency.management__io.netty__netty-handler__version>4.1.15.Final</m:dependency.management__io.netty__netty-handler__version>
+		<m:properties__asciidoc.dir>${project.basedir}/src/main/asciidoc</m:properties__asciidoc.dir>
+		<m:properties__maven.surefire.plugin.version>2.18.1</m:properties__maven.surefire.plugin.version>
+		<m:dependency.management__io.netty__netty-tcnative-boringssl-static__version>2.0.6.Final</m:dependency.management__io.netty__netty-tcnative-boringssl-static__version>
+		<m:dependency.management__io.vertx__vertx-mail__version>3.5.0</m:dependency.management__io.vertx__vertx-mail__version>
+		<m:dependency.management__io.vertx__vertx-redis-client__version>3.5.0</m:dependency.management__io.vertx__vertx-redis-client__version>
+		<m:properties__maven.jacoco.plugin.version>0.7.6.201602180812</m:properties__maven.jacoco.plugin.version>
+		<m:properties__maven.install.plugin.version>2.5.2</m:properties__maven.install.plugin.version>
+		<m:dependency.management__io.vertx__vertx-service-factory__version>3.5.0</m:dependency.management__io.vertx__vertx-service-factory__version>
+		<m:dependency.management__io.vertx__vertx-service-discovery-bridge-consul__version>3.5.0</m:dependency.management__io.vertx__vertx-service-discovery-bridge-consul__version>
+		<m:properties__tcnative.version>2.0.6.Final</m:properties__tcnative.version>
+		<m:dependency.management__io.vertx__vertx-web-templ-thymeleaf__version>3.5.0</m:dependency.management__io.vertx__vertx-web-templ-thymeleaf__version>
+		<m:properties__apacheds-protocol-dns.version>1.5.7</m:properties__apacheds-protocol-dns.version>
+		<m:properties__log4j.version>1.2.17</m:properties__log4j.version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:dependency.management__io.vertx__vertx-shell__version>3.5.0</m:dependency.management__io.vertx__vertx-shell__version>
+		<m:properties__maven.resource.plugin.version>2.7</m:properties__maven.resource.plugin.version>
+		<m:properties__stack.version>3.5.0</m:properties__stack.version>
+		<m:properties__log4j2.version>2.8.2</m:properties__log4j2.version>
+		<m:properties__maven.compiler.plugin.version>3.1</m:properties__maven.compiler.plugin.version>
+		<m:dependency.management__io.vertx__vertx-auth-shiro__version>3.5.0</m:dependency.management__io.vertx__vertx-auth-shiro__version>
+		<m:dependency.management__io.vertx__vertx-camel-bridge__version>3.5.0</m:dependency.management__io.vertx__vertx-camel-bridge__version>
+		<m:dependency.management__io.vertx__vertx-auth-htdigest__version>3.5.0</m:dependency.management__io.vertx__vertx-auth-htdigest__version>
+		<m:properties__vertx.testDomainSockets>false</m:properties__vertx.testDomainSockets>
+		<m:dependency.management__io.vertx__vertx-grpc__version>3.5.0</m:dependency.management__io.vertx__vertx-grpc__version>
+		<m:dependency.management__io.vertx__vertx-codetrans__version>3.5.0</m:dependency.management__io.vertx__vertx-codetrans__version>
+		<m:dependency.management__io.vertx__vertx-rabbitmq-client__version>3.5.0</m:dependency.management__io.vertx__vertx-rabbitmq-client__version>
+		<m:properties__maven.compiler.source>1.8</m:properties__maven.compiler.source>
+		<m:properties__maven.javadoc.plugin.version>2.10.1</m:properties__maven.javadoc.plugin.version>
+		<m:dependency.management__io.vertx__vertx-mail-client__version>3.5.0</m:dependency.management__io.vertx__vertx-mail-client__version>
+		<m:dependency.management__io.netty__netty-transport-native-kqueue__version>4.1.15.Final</m:dependency.management__io.netty__netty-transport-native-kqueue__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+		<artifact name="vertx-core" type="jar" ext="jar" conf="master"/>
+	</publications>
+	<dependencies>
+		<dependency org="io.netty" name="netty-common" rev="4.1.15.Final" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="io.netty" name="netty-buffer" rev="4.1.15.Final" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="io.netty" name="netty-transport" rev="4.1.15.Final" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="io.netty" name="netty-handler" rev="4.1.15.Final" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="io.netty" name="netty-handler-proxy" rev="4.1.15.Final" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="io.netty" name="netty-codec-http" rev="4.1.15.Final" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="io.netty" name="netty-codec-http2" rev="4.1.15.Final" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="io.netty" name="netty-resolver" rev="4.1.15.Final" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="io.netty" name="netty-resolver-dns" rev="4.1.15.Final" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="io.netty" name="netty-transport-native-epoll" rev="4.1.15.Final" force="true" conf="optional->compile(*),master(compile)"/>
+		<dependency org="io.netty" name="netty-transport-native-kqueue" rev="4.1.15.Final" force="true" conf="optional->compile(*),master(compile)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.9.0" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.9.0" force="true" conf="compile->compile(*),master(compile);runtime->runtime(*)"/>
+		<dependency org="log4j" name="log4j" rev="1.2.17" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.8.2" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.8.2" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.7.21" force="true" conf="provided->compile(*),provided(*),runtime(*),master(compile)"/>
+		<dependency org="io.vertx" name="vertx-codegen" rev="3.5.0" force="true" conf="optional->compile(*),master(compile)"/>
+		<dependency org="io.vertx" name="vertx-docgen" rev="3.5.0" force="true" conf="optional->compile(*),master(compile)"/>
+		<dependency org="junit" name="junit" rev="4.12" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.apache.directory.server" name="apacheds-protocol-dns" rev="1.5.7" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.assertj" name="assertj-core" rev="3.4.1" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.slf4j" name="slf4j-simple" rev="1.7.21" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="io.netty" name="netty-tcnative-boringssl-static" rev="2.0.6.Final" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.openjdk.jmh" name="jmh-core" rev="1.19" force="true" conf="test->runtime(*),master(compile)"/>
+	</dependencies>
+</ivy-module>

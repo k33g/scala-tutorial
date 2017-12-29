@@ -42,7 +42,7 @@ Sinon, dans la vraie vie, il faut installer Scala et SBT
 │       ├── java
 │       ├── resources
 │       └── scala
-````
+```
 
 ### Utilitaire (OSX ou Linux) pour créer rapidement un projet Scala
 
@@ -77,8 +77,8 @@ EOF
 ### Tout d'abord...
 
 - Munissez vous de votre éditeur préféré (avec la colorisation Scala)
-- Puis pour les utilisateurs OSX ou Linux, lancez `. setupenv.sh`
-- <TODO 🚧> Puis pour les utilisateurs Windows, lancez ``
+- Puis pour les utilisateurs OSX ou Linux, lancez `. osx.setupenv.sh` ou `. tux.setupenv.sh`
+- Puis pour les utilisateurs Windows, lancez `win.setupenv.cmd`
 
 ### C'est parti
 

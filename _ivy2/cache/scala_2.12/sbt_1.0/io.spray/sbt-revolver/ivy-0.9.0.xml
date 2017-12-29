@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="io.spray" module="sbt-revolver" revision="0.9.0" status="release" publication="20170815171511" e:sbtVersion="1.0" e:scalaVersion="2.12">
+		<license name="Apache License 2.0" url="https://github.com/spray/sbt-revolver/raw/master/LICENSE"/>
+		<description homepage="http://github.com/spray/sbt-revolver">
+		An SBT plugin for dangerously fast development turnaround in Scala
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		
+		
+		
+		
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		
+		
+		
+	</configurations>
+	<publications>
+		<artifact name="sbt-revolver" type="jar" ext="jar" conf="compile"/>
+		<artifact name="sbt-revolver" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="sbt-revolver" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		
+		<dependency org="org.scala-lang" name="scala-library" rev="2.12.2" conf="provided->default(compile)"/>
+		<dependency org="org.scala-sbt" name="sbt" rev="1.0.0" conf="provided->default(compile)"/>
+		
+		
+	</dependencies>
+</ivy-module>

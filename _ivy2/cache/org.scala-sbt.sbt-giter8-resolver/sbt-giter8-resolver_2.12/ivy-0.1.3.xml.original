@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.scala-sbt.sbt-giter8-resolver</groupId>
+    <artifactId>sbt-giter8-resolver_2.12</artifactId>
+    <packaging>jar</packaging>
+    <description>template resolver for sbt new command with Giter8 support</description>
+    <url>https://github.com/sbt/sbt-giter8-resolver</url>
+    <version>0.1.3</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>sbt-giter8-resolver</name>
+    <organization>
+        <name>org.scala-sbt.sbt-giter8-resolver</name>
+        <url>https://github.com/sbt/sbt-giter8-resolver</url>
+    </organization>
+    <scm>
+        <url>https://github.com/sbt/sbt-giter8-resolver</url>
+        <connection>git@github.com:sbt/sbt-giter8-resolver.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>eed3si9n</id>
+            <name>Eugene Yokota</name>
+            <email>@eed3si9n</email>
+            <url>https://github.com/eed3si9n</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.12.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>template-resolver</artifactId>
+            <version>0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.foundweekends.giter8</groupId>
+            <artifactId>giter8_2.12</artifactId>
+            <version>0.7.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>launcher-interface</artifactId>
+            <version>1.0.0-M1</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>bintraysbtmavenreleases</id>
+            <name>bintray-sbt-maven-releases</name>
+            <url>https://dl.bintray.com/sbt/maven-releases/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>

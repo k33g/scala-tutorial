@@ -1,6 +1,7 @@
 */target/**
 */.vscode/**
 */.vertx/**
-_ivy2
-_sbt
+#_ivy2
+#_sbt
 .vscode
+.ensime_cache

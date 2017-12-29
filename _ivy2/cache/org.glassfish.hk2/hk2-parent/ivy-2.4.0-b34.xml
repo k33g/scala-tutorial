@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="org.glassfish.hk2"
+		module="hk2-parent"
+		revision="2.4.0-b34"
+		status="release"
+		publication="20151119124249"
+	>
+		<license name="CDDL + GPLv2 with classpath exception" url="https://glassfish.java.net/nonav/public/CDDL+GPL_1_1.html" />
+		<description homepage="https://hk2.java.net">
+		Dependency Injection Kernel
+		</description>
+		<m:properties__assertj.version>1.4.0</m:properties__assertj.version>
+		<m:dependency.management__ant__ant__version>1.6.5</m:dependency.management__ant__ant__version>
+		<m:properties__javax.el.version>2.2.5</m:properties__javax.el.version>
+		<m:properties__highlightjs.version>7.5</m:properties__highlightjs.version>
+		<m:dependency.management__org.glassfish.hk2__security-lockdown-example-alice__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__security-lockdown-example-alice__version>
+		<m:properties__hibernate-validator.version>5.1.2.Final</m:properties__hibernate-validator.version>
+		<m:dependency.management__org.glassfish.hk2__hk2-core__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-core__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-configuration-integration__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-configuration-integration__version>
+		<m:properties__junit.version>4.11</m:properties__junit.version>
+		<m:properties__javax.validation.osgi.version>1.1.0</m:properties__javax.validation.osgi.version>
+		<m:dependency.management__org.glassfish.hk2__hk2-testing__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-testing__version>
+		<m:properties__testng.version>6.8.7</m:properties__testng.version>
+		<m:dependency.management__ch.qos.logback__logback-classic__version>1.1.2</m:dependency.management__ch.qos.logback__logback-classic__version>
+		<m:properties__pax-exam-version>3.5.0</m:properties__pax-exam-version>
+		<m:dependency.management__org.jvnet__tiger-types__version>1.4</m:dependency.management__org.jvnet__tiger-types__version>
+		<m:dependency.management__org.ops4j.pax.exam__pax-exam__version>3.5.0</m:dependency.management__org.ops4j.pax.exam__pax-exam__version>
+		<m:dependency.management__org.hibernate__hibernate-validator-cdi__version>5.1.2.Final</m:dependency.management__org.hibernate__hibernate-validator-cdi__version>
+		<m:properties__tiger-types.version>1.4</m:properties__tiger-types.version>
+		<m:dependency.management__org.glassfish.hk2__osgi-adapter-tests-parent__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__osgi-adapter-tests-parent__version>
+		<m:dependency.management__org.jboss.logging__jboss-logging__version>3.1.0.GA</m:dependency.management__org.jboss.logging__jboss-logging__version>
+		<m:dependency.management__com.google.inject__guice__version>3.0</m:dependency.management__com.google.inject__guice__version>
+		<m:dependency.management__org.ops4j.pax.exam__pax-exam-junit4__version>3.5.0</m:dependency.management__org.ops4j.pax.exam__pax-exam-junit4__version>
+		<m:properties__asm.version>5.0.3</m:properties__asm.version>
+		<m:dependency.management__org.glassfish.hk2__faux-sdp-bundle__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__faux-sdp-bundle__version>
+		<m:dependency.management__org.glassfish.hk2__spring-bridge__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__spring-bridge__version>
+		<m:dependency.management__org.osgi__osgi_R4_core__version>1.0</m:dependency.management__org.osgi__osgi_R4_core__version>
+		<m:properties__findbugs.threshold>High</m:properties__findbugs.threshold>
+		<m:dependency.management__org.apache.maven__maven-project__version>3.0-alpha-2</m:dependency.management__org.apache.maven__maven-project__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-extras__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-extras__version>
+		<m:dependency.management__org.ops4j.pax.logging__pax-logging-service__version>1.7.2</m:dependency.management__org.ops4j.pax.logging__pax-logging-service__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-build__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-build__version>
+		<m:dependency.management__org.glassfish.hk2.external__asm-all-repackaged__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2.external__asm-all-repackaged__version>
+		<m:dependency.management__org.uncommons__reportng__version>1.1.2</m:dependency.management__org.uncommons__reportng__version>
+		<m:dependency.management__org.glassfish.hk2__security-lockdown-example__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__security-lockdown-example__version>
+		<m:dependency.management__org.javassist__javassist__version>3.18.1-GA</m:dependency.management__org.javassist__javassist__version>
+		<m:dependency.management__org.slf4j__slf4j-simple__version>1.7.12</m:dependency.management__org.slf4j__slf4j-simple__version>
+		<m:dependency.management__org.apache.felix__org.apache.felix.configadmin__version>1.8.0</m:dependency.management__org.apache.felix__org.apache.felix.configadmin__version>
+		<m:dependency.management__org.glassfish.hk2__class-model__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__class-model__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-locator__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-locator__version>
+		<m:dependency.management__junit__junit__version>4.11</m:dependency.management__junit__junit__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-utils__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-utils__version>
+		<m:properties__stax-api.version>1.0-2</m:properties__stax-api.version>
+		<m:dependency.management__org.glassfish.hk2__hk2__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-api__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-api__version>
+		<m:dependency.management__aopalliance__aopalliance__version>1.0</m:dependency.management__aopalliance__aopalliance__version>
+		<m:properties__woodstox.version>3.2.3</m:properties__woodstox.version>
+		<m:dependency.management__org.apache.maven__maven-archiver__version>2.0.4</m:dependency.management__org.apache.maven__maven-archiver__version>
+		<m:properties__cdn.bootstrap>http://netdna.bootstrapcdn.com</m:properties__cdn.bootstrap>
+		<m:dependency.management__org.ops4j.pax.tipi__org.ops4j.pax.tipi.junit__version>4.11.0.1</m:dependency.management__org.ops4j.pax.tipi__org.ops4j.pax.tipi.junit__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-xml__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-xml__version>
+		<m:dependency.management__woodstox__wstx-asl__version>3.2.3</m:dependency.management__woodstox__wstx-asl__version>
+		<m:dependency.management__org.apache.felix__org.apache.felix.framework__version>3.2.2</m:dependency.management__org.apache.felix__org.apache.felix.framework__version>
+		<m:dependency.management__org.easymock__easymock__version>3.0</m:dependency.management__org.easymock__easymock__version>
+		<m:dependency.management__org.assertj__assertj-core__version>1.4.0</m:dependency.management__org.assertj__assertj-core__version>
+		<m:properties__javassist.version>3.18.1-GA</m:properties__javassist.version>
+		<m:dependency.management__org.glassfish.hk2.external__bean-validator__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2.external__bean-validator__version>
+		<m:properties__cdn.google>http://ajax.googleapis.com/ajax/libs</m:properties__cdn.google>
+		<e:sbtTransformHash>87724dd9a9dc5094f2ed28b32d2af5b684be740f</e:sbtTransformHash>
+		<m:properties__site.dir>${project.build.directory}/site</m:properties__site.dir>
+		<m:maven.plugins>org.apache.maven.plugins__maven-eclipse-plugin__null|org.apache.maven.plugins__maven-compiler-plugin__null|org.apache.maven.plugins__maven-surefire-plugin__null|org.codehaus.mojo__findbugs-maven-plugin__null|org.apache.felix__maven-bundle-plugin__null|org.apache.maven.plugins__maven-resources-plugin__2.6|com.googlecode.maven-download-plugin__maven-download-plugin__null|org.apache.maven.plugins__maven-site-plugin__null|org.apache.maven.plugins__maven-jar-plugin__null|org.apache.maven.plugins__maven-enforcer-plugin__null</m:maven.plugins>
+		<m:properties__bootstrap.version>2.3.2</m:properties__bootstrap.version>
+		<m:properties__javax.validation.version>1.1.0.Final</m:properties__javax.validation.version>
+		<m:dependency.management__org.ops4j.pax.exam__pax-exam-extender-service__version>3.5.0</m:dependency.management__org.ops4j.pax.exam__pax-exam-extender-service__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-dependency-visualizer__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-dependency-visualizer__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-junitrunner__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-junitrunner__version>
+		<m:dependency.management__args4j__args4j__version>2.0.12</m:dependency.management__args4j__args4j__version>
+		<m:dependency.management__org.ops4j.pax.exam__pax-exam-link-assembly__version>3.5.0</m:dependency.management__org.ops4j.pax.exam__pax-exam-link-assembly__version>
+		<m:dependency.management__ch.qos.logback__logback-core__version>1.1.2</m:dependency.management__ch.qos.logback__logback-core__version>
+		<m:dependency.management__org.glassfish.hk2__test-module-startup__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__test-module-startup__version>
+		<m:properties__jdk.version>1.6.0</m:properties__jdk.version>
+		<m:dependency.management__org.apache.maven.shared__maven-osgi__version>0.2.0</m:dependency.management__org.apache.maven.shared__maven-osgi__version>
+		<m:dependency.management__com.googlecode.jtype__jtype__version>0.1.0</m:dependency.management__com.googlecode.jtype__jtype__version>
+		<m:dependency.management__org.glassfish.hk2__contract-bundle__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__contract-bundle__version>
+		<m:dependency.management__org.glassfish.hk2.external__aopalliance-repackaged__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2.external__aopalliance-repackaged__version>
+		<m:dependency.management__javax.el__javax.el-api__version>${javax.el.version}</m:dependency.management__javax.el__javax.el-api__version>
+		<m:properties__jvnetDistMgmtSnapshotsUrl>https://maven.java.net/content/repositories/snapshots/</m:properties__jvnetDistMgmtSnapshotsUrl>
+		<m:dependency.management__org.glassfish.hk2__hk2-configuration-hub__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-configuration-hub__version>
+		<m:dependency.management__org.glassfish.hk2__config-types__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__config-types__version>
+		<m:dependency.management__org.junit__com.springsource.org.junit__version>4.4.0</m:dependency.management__org.junit__com.springsource.org.junit__version>
+		<m:dependency.management__org.glassfish.hk2__caching-aop-example-runner__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__caching-aop-example-runner__version>
+		<m:dependency.management__org.glassfish.hk2__ctm-example__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__ctm-example__version>
+		<m:dependency.management__org.hibernate__hibernate-validator__version>5.1.2.Final</m:dependency.management__org.hibernate__hibernate-validator__version>
+		<m:properties__java.net.username>${user.name}</m:properties__java.net.username>
+		<m:dependency.management__org.ops4j.base__ops4j-base__version>1.4.0</m:dependency.management__org.ops4j.base__ops4j-base__version>
+		<m:dependency.management__org.glassfish.hk2__devtests__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__devtests__version>
+		<m:dependency.management__org.glassfish.hk2__consolidatedbundle-maven-plugin__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__consolidatedbundle-maven-plugin__version>
+		<m:dependency.management__org.apache.maven__maven-artifact__version>2.0.4</m:dependency.management__org.apache.maven__maven-artifact__version>
+		<m:dependency.management__javax.xml.stream__stax-api__version>1.0-2</m:dependency.management__javax.xml.stream__stax-api__version>
+		<m:dependency.management__org.osgi__org.osgi.enterprise__version>4.2.0</m:dependency.management__org.osgi__org.osgi.enterprise__version>
+		<m:dependency.management__org.glassfish.hk2__osgi-adapter__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__osgi-adapter__version>
+		<m:dependency.management__org.springframework__spring-context__version>3.2.3.RELEASE</m:dependency.management__org.springframework__spring-context__version>
+		<m:dependency.management__org.ops4j.pax.logging__pax-logging-api__version>1.6.4</m:dependency.management__org.ops4j.pax.logging__pax-logging-api__version>
+		<m:dependency.management__org.apache.geronimo.specs__geronimo-atinject_1.0_spec__version>1.0</m:dependency.management__org.apache.geronimo.specs__geronimo-atinject_1.0_spec__version>
+		<m:properties__mvn.version>3.0.3</m:properties__mvn.version>
+		<m:dependency.management__com.sun.codemodel__codemodel__version>2.6</m:dependency.management__com.sun.codemodel__codemodel__version>
+		<m:dependency.management__org.glassfish.hk2__sdp-management-bundle__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__sdp-management-bundle__version>
+		<m:dependency.management__org.ops4j.pax.exam__pax-exam-inject__version>3.5.0</m:dependency.management__org.ops4j.pax.exam__pax-exam-inject__version>
+		<m:dependency.management__org.ops4j.pax.exam__pax-exam-container-native__version>3.5.0</m:dependency.management__org.ops4j.pax.exam__pax-exam-container-native__version>
+		<m:dependency.management__org.glassfish.hk2__custom-resolver-example__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__custom-resolver-example__version>
+		<m:dependency.management__org.glassfish.hk2__osgi__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__osgi__version>
+		<m:dependency.management__org.glassfish.hk2__security-lockdown-example-system__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__security-lockdown-example-system__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-metadata-generator__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-metadata-generator__version>
+		<m:properties__slf4j.version>1.7.12</m:properties__slf4j.version>
+		<m:dependency.management__org.glassfish.hk2__security-lockdown-example-runner__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__security-lockdown-example-runner__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-config-generator__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-config-generator__version>
+		<m:properties__jquery.version>1.9.1</m:properties__jquery.version>
+		<m:dependency.management__org.testng__testng__version>6.8.7</m:dependency.management__org.testng__testng__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-configuration__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-configuration__version>
+		<m:dependency.management__org.apache.maven__maven-plugin-api__version>2.0.4</m:dependency.management__org.apache.maven__maven-plugin-api__version>
+		<m:dependency.management__javax.inject__javax.inject__version>1</m:dependency.management__javax.inject__javax.inject__version>
+		<m:dependency.management__org.testng__testng__scope>test</m:dependency.management__org.testng__testng__scope>
+		<m:dependency.management__org.glassfish.hk2__tiger-types-osgi__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__tiger-types-osgi__version>
+		<m:dependency.management__org.osgi__org.osgi.compendium__version>4.2.0</m:dependency.management__org.osgi__org.osgi.compendium__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-maven__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-maven__version>
+		<m:dependency.management__org.apache.felix__org.apache.felix.bundlerepository__version>1.6.6</m:dependency.management__org.apache.felix__org.apache.felix.bundlerepository__version>
+		<m:dependency.management__org.glassfish.hk2__examples__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__examples__version>
+		<m:dependency.management__org.glassfish.hk2__caching-aop-example-system__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__caching-aop-example-system__version>
+		<m:dependency.management__org.glassfish.hk2.external__javax.inject__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2.external__javax.inject__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-collections-tests__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-collections-tests__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-runlevel__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-runlevel__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-property-file__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-property-file__version>
+		<m:dependency.management__org.ops4j.pax.exam__pax-exam-spi__version>3.5.0</m:dependency.management__org.ops4j.pax.exam__pax-exam-spi__version>
+		<m:dependency.management__org.glassfish.hk2__caching-aop-example__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__caching-aop-example__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-testng__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-testng__version>
+		<m:dependency.management__javax.enterprise__cdi-api__version>1.0</m:dependency.management__javax.enterprise__cdi-api__version>
+		<m:dependency.management__org.ops4j.pax.exam__pax-exam-link-mvn__version>3.5.0</m:dependency.management__org.ops4j.pax.exam__pax-exam-link-mvn__version>
+		<m:dependency.management__org.glassfish.hk2__guice-bridge__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__guice-bridge__version>
+		<m:dependency.management__org.glassfish.hk2.external__bean-validator-cdi__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2.external__bean-validator-cdi__version>
+		<m:dependency.management__org.glassfish.hk2__osgi-adapter-test__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__osgi-adapter-test__version>
+		<m:dependency.management__org.glassfish.hk2__external__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__external__version>
+		<m:dependency.management__org.apache.felix__org.osgi.core__version>1.4.0</m:dependency.management__org.apache.felix__org.osgi.core__version>
+		<m:dependency.management__org.ow2.asm__asm-debug-all__version>5.0.3</m:dependency.management__org.ow2.asm__asm-debug-all__version>
+		<m:properties__org.jboss.logging.version>3.1.0.GA</m:properties__org.jboss.logging.version>
+		<m:dependency.management__org.ops4j.pax.url__pax-url-aether__version>2.1.0</m:dependency.management__org.ops4j.pax.url__pax-url-aether__version>
+		<m:dependency.management__org.apache.maven.plugins__maven-compiler-plugin__version>2.0.2</m:dependency.management__org.apache.maven.plugins__maven-compiler-plugin__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-parent__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-parent__version>
+		<m:dependency.management__org.glassfish.hk2__hk2-dependency-verifier__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-dependency-verifier__version>
+		<m:properties__aopalliance.version>1.0</m:properties__aopalliance.version>
+		<m:dependency.management__org.glassfish.hk2__hk2-inhabitant-generator__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-inhabitant-generator__version>
+		<m:properties__cdn.yandex>http://yandex.st</m:properties__cdn.yandex>
+		<m:dependency.management__org.osgi__org.osgi.core__version>4.2.0</m:dependency.management__org.osgi__org.osgi.core__version>
+		<m:dependency.management__org.glassfish.hk2__security-lockdown-example-mallory__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__security-lockdown-example-mallory__version>
+		<m:dependency.management__org.glassfish.hk2__osgi-resource-locator__version>1.0.1</m:dependency.management__org.glassfish.hk2__osgi-resource-locator__version>
+		<m:properties__site.outputDir>${site.dir}/${project.version}</m:properties__site.outputDir>
+		<m:dependency.management__org.glassfish.hk2__hk2-config__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__hk2-config__version>
+		<m:properties__project.build.sourceEncoding>UTF-8</m:properties__project.build.sourceEncoding>
+		<m:properties__javax-inject.version>1</m:properties__javax-inject.version>
+		<m:dependency.management__org.glassfish.hk2__osgiversion-maven-plugin__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__osgiversion-maven-plugin__version>
+		<m:dependency.management__org.ops4j.pax.exam__pax-exam-invoker-junit__version>3.5.0</m:dependency.management__org.ops4j.pax.exam__pax-exam-invoker-junit__version>
+		<m:dependency.management__org.apache.felix__org.apache.felix.main__version>3.2.2</m:dependency.management__org.apache.felix__org.apache.felix.main__version>
+		<m:properties__fontawesome.version>3.2.1</m:properties__fontawesome.version>
+		<m:dependency.management__javax.validation__validation-api__version>1.1.0.Final</m:dependency.management__javax.validation__validation-api__version>
+		<m:properties__jtype.version>0.1.0</m:properties__jtype.version>
+		<m:dependency.management__org.glassfish.hk2__no-hk2-bundle__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__no-hk2-bundle__version>
+		<m:dependency.management__org.glassfish.hk2__config-generator__version>2.4.0-b34</m:dependency.management__org.glassfish.hk2__config-generator__version>
+	</info>
+	<configurations>
+		<conf name="default" visibility="public" description="runtime dependencies and master artifact can be used with this conf" extends="runtime,master"/>
+		<conf name="master" visibility="public" description="contains only the artifact published by this module itself, with no transitive dependencies"/>
+		<conf name="compile" visibility="public" description="this is the default scope, used if none is specified. Compile dependencies are available in all classpaths."/>
+		<conf name="provided" visibility="public" description="this is much like compile, but indicates you expect the JDK or a container to provide it. It is only available on the compilation classpath, and is not transitive."/>
+		<conf name="runtime" visibility="public" description="this scope indicates that the dependency is not required for compilation, but is for execution. It is in the runtime and test classpaths, but not the compile classpath." extends="compile"/>
+		<conf name="test" visibility="private" description="this scope indicates that the dependency is not required for normal use of the application, and is only available for the test compilation and execution phases." extends="runtime"/>
+		<conf name="system" visibility="public" description="this scope is similar to provided except that you have to provide the JAR which contains it explicitly. The artifact is always available and is not looked up in a repository."/>
+		<conf name="sources" visibility="public" description="this configuration contains the source artifact of this module, if any."/>
+		<conf name="javadoc" visibility="public" description="this configuration contains the javadoc artifact of this module, if any."/>
+		<conf name="optional" visibility="public" description="contains all optional dependencies"/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="junit" name="junit" rev="4.11" force="true" conf="test->runtime(*),master(compile)"/>
+		<dependency org="org.easymock" name="easymock" rev="3.0" force="true" conf="test->runtime(*),master(compile)"/>
+	</dependencies>
+</ivy-module>
