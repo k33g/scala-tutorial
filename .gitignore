@@ -3,4 +3,4 @@
 */.vertx/**
 _ivy2
 _sbt
-
+.vscode
