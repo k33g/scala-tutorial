@@ -91,7 +91,11 @@ Il va falloir faire les exercices dans l'ordre, à votre rythme (si vous ne term
 - Dans un terminal (console, ...):
 ```
 cd 01-hello
-./ run.sh # équivalent de sbt run
+# si osx or linux
+./ run.sh # équivalent de sbt run 
+
+# si windows
+run.cmd
 ```
 - avec SBT, nous utilisons le plugin `sbt-revolver` qui permet de relancer la compilation à chaque modification de code [^2]
 - Lire `01-hello/README.md`
