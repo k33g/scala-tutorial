@@ -1,0 +1,30 @@
+@*
+ * This template takes 2 arguments
+ * It's called by /app/controllers/HomeController.scala
+ * The route that triggers the controller is in
+ *@
+
+
+@(title: String, message: String)
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>@title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+        <script src="@routes.Assets.versioned("javascripts/hello.js")" type="text/javascript"></script>
+    </head>
+    <body>
+        <section class="container">
+            <div>
+                <h1 class="title">@title</h1>
+                <h2 class="subtitle">@message</h2>
+            </div>
+        </section>
+    </body>
+</html>
+
+

@@ -5,3 +5,5 @@
 #_sbt
 .vscode
 .ensime_cache
+.DS_Store
+*/logs/**
