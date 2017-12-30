@@ -1,9 +1,9 @@
 package people.powers
 
 trait GoToTheFuture {
-  def nickName: String // define variable as abstract
+  def nickName: String
 
   def fastForward() = {
-    println(s"$nickName runs to the future ✨🏃")
+    println(s"$nickName runs to the future")
   }
 }

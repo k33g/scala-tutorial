@@ -4,7 +4,7 @@
 		module="root-04-traits-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171225090738"
+		publication="20171230102107"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

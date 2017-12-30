@@ -3,12 +3,10 @@ package demo
 import people._
 
 object Hello extends App {
-  val flash = new Speedster("Barry Allen", "The Flash") // a class and more...
+  val flash = new Speedster("Barry Allen", "The Flash")
 
-  println(flash.id)
+  flash.run() // "The Flash runs fast"
+  flash.fastForward() // "The Flash runs to the future"
 
-  flash.run()
-  
-  flash.fastForward()
 }
 

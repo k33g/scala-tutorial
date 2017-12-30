@@ -1,4 +1,4 @@
-# Companions
+# Companions objects
 
 En Scala, il n'y a pas de méthode ou classe `static`, mais on peut créer un "Companion object" pour la classe qui "portera" l'équivalent de ces méthodes statiques
 
