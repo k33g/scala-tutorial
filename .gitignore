@@ -1,4 +1,5 @@
 */target/**
+*/project/target/**
 */.vscode/**
 */.vertx/**
 #_ivy2
