@@ -1,4 +1,4 @@
-[0m[[0m[0minfo[0m] [0m[0mUpdating {file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/}root-19-webapp-build...[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating {file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/}root-19-webapp-build...[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: default#root-19-webapp-build;0.1-SNAPSHOT[0m
 [0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
 [0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
@@ -12662,33 +12662,103 @@
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-interface;1.0.3!util-interface.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.0.5!compiler-interface.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.spray#sbt-revolver;0.9.0!sbt-revolver.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#task-system_2.12;1.0.4!task-system_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] io.spray#sbt-revolver;0.9.0!sbt-revolver.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-interface;1.0.3!util-interface.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#logic_2.12;1.0.4!logic_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#compiler-interface;1.0.5!compiler-interface.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#collections_2.12;1.0.4!collections_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/k33g/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/k33g/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/k33g/.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/k33g/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/k33g/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/k33g/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/k33g/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /Users/k33g/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/k33g/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/k33g/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/k33g/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/k33g/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (52ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/k33g/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/k33g/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/k33g/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /Users/k33g/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (45ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/k33g/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (45ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/k33g/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (44ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/k33g/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (46ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/k33g/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (46ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/k33g/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (46ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/k33g/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -12697,10 +12767,29 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (61ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (46ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/k33g/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (48ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/k33g/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -12709,108 +12798,83 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (65ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/k33g/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/Users/k33g/Dropbox/SNOWCAMP/osx/handson/_sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.0.4/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.0.4!actions_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-compile_2.12;1.0.5!zinc-compile_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#tasks_2.12;1.0.4!tasks_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#sbt;1.0.4!sbt.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.squareup.okio#okio;1.12.0!okio.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.0.4!main-settings_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-relation_2.12;1.0.3!util-relation_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.2!launcher-interface.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#testing_2.12;1.0.4!testing_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#main_2.12;1.0.4!main_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-compile-core_2.12;1.0.5!zinc-compile-core_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#run_2.12;1.0.4!run_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#sjson-new-scalajson_2.12;0.8.0!sjson-new-scalajson_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lmax#disruptor;3.3.6!disruptor.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-tracking_2.12;1.0.3!util-tracking_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#core-macros_2.12;1.0.4!core-macros_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#command_2.12;1.0.4!command_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-position_2.12;1.0.3!util-position_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-classpath_2.12;1.0.5!zinc-classpath_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.4!scala-reflect.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-core_2.12;1.0.5!zinc-core_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#protocol_2.12;1.0.4!protocol_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#sjson-new-core_2.12;0.8.0!sjson-new-core_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-apiinfo_2.12;1.0.5!zinc-apiinfo_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.4!scala-compiler.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-persist_2.12;1.0.5!zinc-persist_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-cache_2.12;1.0.3!util-cache_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-compile_2.12;1.0.5!zinc-compile_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.0!sjson-new-murmurhash_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#test-agent;1.0.4!test-agent.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-relation_2.12;1.0.3!util-relation_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#sjson-new-scalajson_2.12;0.8.0!sjson-new-scalajson_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (74ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /Users/k33g/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-position_2.12;1.0.3!util-position_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-classfile_2.12;1.0.5!zinc-classfile_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#sjson-new-core_2.12;0.8.0!sjson-new-core_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.4!scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#sbt;1.0.4!sbt.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#sbinary_2.12;0.4.4!sbinary_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#main_2.12;1.0.4!main_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#completion_2.12;1.0.4!completion_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#logic_2.12;1.0.4!logic_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#task-system_2.12;1.0.4!task-system_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#actions_2.12;1.0.4!actions_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#tasks_2.12;1.0.4!tasks_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#main-settings_2.12;1.0.4!main-settings_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#testing_2.12;1.0.4!testing_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#run_2.12;1.0.4!run_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-tracking_2.12;1.0.3!util-tracking_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#command_2.12;1.0.4!command_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-classpath_2.12;1.0.5!zinc-classpath_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#core-macros_2.12;1.0.4!core-macros_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-apiinfo_2.12;1.0.5!zinc-apiinfo_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#collections_2.12;1.0.4!collections_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#protocol_2.12;1.0.4!protocol_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-ivy-integration_2.12;1.0.5!zinc-ivy-integration_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc_2.12;1.0.5!zinc_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#launcher-interface;1.0.2!launcher-interface.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310!ivy.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.4!jline.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.5!jline.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-api;2.8.1!log4j-api.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-control_2.12;1.0.3!util-control_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar(test-jar)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-slf4j-impl;2.8.1!log4j-slf4j-impl.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.apache.logging.log4j#log4j-core;2.8.1!log4j-core.jar(test-jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-ivy-integration_2.12;1.0.5!zinc-ivy-integration_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-cache_2.12;1.0.3!util-cache_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#io_2.12;1.0.2!io_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310!ivy.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-logging_2.12;1.0.3!util-logging_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#sbinary_2.12;0.4.4!sbinary_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.0!sjson-new-murmurhash_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#librarymanagement-core_2.12;1.0.4!librarymanagement-core_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.5!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#completion_2.12;1.0.4!completion_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#test-agent;1.0.4!test-agent.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#librarymanagement-ivy_2.12;1.0.4!librarymanagement-ivy_2.12.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 4855ms :: artifacts dl 619ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT compile produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-compile.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT runtime produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-runtime.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT test produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT provided produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-provided.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT optional produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT compile-internal produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-compile-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT runtime-internal produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-runtime-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT test-internal produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-test-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT plugin produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT pom produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-pom.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT scala-tool produced in /Users/k33g/Dropbox/SNOWCAMP/osx/handson/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (4855ms resolve - 619ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc_2.12;1.0.5!zinc_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#zinc-classfile_2.12;1.0.5!zinc-classfile_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.4!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#util-control_2.12;1.0.3!util-control_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(bundle)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 1417ms :: artifacts dl 141ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT compile produced in /Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT runtime produced in /Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT test produced in /Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT provided produced in /Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT optional produced in /Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT compile-internal produced in /Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT runtime-internal produced in /Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT test-internal produced in /Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT plugin produced in /Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT pom produced in /Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#root-19-webapp-build;0.1-SNAPSHOT scala-tool produced in /Volumes/data/Dropbox/SNOWCAMP/scala-tutorial/19-webapp/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-root-19-webapp-build-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (1417ms resolve - 141ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m

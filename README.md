@@ -3,9 +3,11 @@
 ## Alors...
 
 - Objectif: Apprendre Scala
+  - découvrir quelques concepts utiles et récurrents
 - Une règle unique: Scala c'est simple / doit rester simple
   - pas besoin d'être bon en maths
   - pas besoin d'être un puriste de la programmation fonctionnelle
+  - ce n'est pas un cours de programmation fonctionnelle (même si on va en faire un petit peu)
 - Beaucoup d'exercices simples: un mini cook-book
   - des exemples à copier, refaire, modifier ...
   - à la fin un exercice plus "compliqué"
@@ -111,7 +113,9 @@ run.cmd
 
 ## Emojis
 
+<TODO>
 
+## ...
 
 ## Ressources
 

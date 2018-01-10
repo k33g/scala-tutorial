@@ -4,7 +4,7 @@
 		module="root-17-either-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171226090438"
+		publication="20180110054616"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

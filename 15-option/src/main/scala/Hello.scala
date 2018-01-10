@@ -1,18 +1,15 @@
 package demo
 
-  /**
-   * Option:
-   * This class represents optional values.
-   * Instances of Option are either 
-   *   - instances of case class Some 
-   *   - or it is case object None.
-   */
-
-
 object Hello extends App {
-  println("👋 🌍")
-  val hello = Option(42)
+  
+  val hello = Option("Hello")
   println(hello)
+  println(hello.get)
+  println(hello.getOrElse("Hi"))
 
-  println(hello.getOrElse("😜"))
+  val hi = Option(null)
+  println(hi)
+  //println(hi.get) get n'existe pas sur un None
+  println(hi.getOrElse("Hi"))
+
 }

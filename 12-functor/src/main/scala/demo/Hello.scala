@@ -1,11 +1,6 @@
 package demo
 
 object Hello extends App {
-
-  // this is a sample of functor
-  // a wrapper around a value
-  // with a map method
-  // could be a class too
   
   case class FunctorOfString(val value: String) {
     def map(fn: String => String) = { // fn is a lambda that takes a String and return a String
@@ -33,6 +28,5 @@ object Hello extends App {
               .value
 
   println(page)
-
 
 }

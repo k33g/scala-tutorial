@@ -4,7 +4,7 @@
 		module="root-10-pattern-matching-again-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171226073627"
+		publication="20180109084005"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

@@ -28,23 +28,14 @@ object Hello extends App {
       .end(new JsonObject().put("message", "👋 hey!").encodePrettily())                            
   )
 
-  // le faire sans le try et demander aux gens de gérer les erreurs
   router.get("/divide/:a/:b").handler(context => {
-    Try(
-      context.request.getParam("a").get.toInt / context.request.getParam("b").get.toInt
-    ) match {
-        case Failure(e) => 
-          context
-            .response()
-            .putHeader("content-type", "application/json;charset=UTF-8")
-            .end(new JsonObject().put("message", e.getMessage).encodePrettily())
-        case Success(result) => 
-          context
-            .response()
-            .putHeader("content-type", "application/json;charset=UTF-8")
-            .end(new JsonObject().put("result", result).encodePrettily())                            
-      } // end match
-  }) // end handler
+    val result = context.request.getParam("a").get.toInt / context.request.getParam("b").get.toInt
+    context
+      .response()
+      .putHeader("content-type", "application/json;charset=UTF-8")
+      .end(new JsonObject().put("result", result).encodePrettily()) 
+
+  })
 
   router.route("/*").handler(StaticHandler.create())
 

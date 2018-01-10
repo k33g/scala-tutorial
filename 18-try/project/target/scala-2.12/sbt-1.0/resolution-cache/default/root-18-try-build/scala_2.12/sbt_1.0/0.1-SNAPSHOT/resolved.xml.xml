@@ -4,7 +4,7 @@
 		module="root-18-try-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171226090922"
+		publication="20180110062050"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
