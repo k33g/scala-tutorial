@@ -40,4 +40,4 @@ case class Human(val name: String){
 ## Exercice
 
 - créer une case classe `TinyToon` avec 2 propriétés (par exemple: `name` et `avatar`)
-- créer 3 tiny toons: babs, buster et bakeBabs (avec les mêmes valeurs d'attributs que Babs), puis tester les équivalences entre instances
+- créer 3 tiny toons: babs, buster et fakeBabs (avec les mêmes valeurs d'attributs que Babs), puis tester les équivalences entre instances

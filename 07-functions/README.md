@@ -38,6 +38,8 @@ package foo.bar
 object square extends (Int => Int) {
   def apply(x: Int): Int = x * x
 }
+
+square(45)
 ```
 
 ## Exercice
